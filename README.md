@@ -4,4 +4,4 @@ All the files required to reproduce the research from the thesis ‘Breaking the
 
 The data set can be reconstructed by downloading the seven zipped user-item-matrix files and unzipping and recombining them with 7-Zip File Manager (https://www.7-zip.org/). Note: the index (first column) provided in the dataset should be ignored.
 
-In addition to the data set, this repository contains the Python file used to implement the matrix factorization recommender and the active learning approach. Moreover, the R file used to analyze the results is also included. The research has been conducted with Python version 3.10.11 and R version 4.2.3.
+In addition to the data set, this repository contains the Python file used to implement the matrix factorization recommender and the active learning approaches. Moreover, the R file used to analyze the results is also included. The research has been conducted with Python version 3.10.11 and R version 4.2.3.
