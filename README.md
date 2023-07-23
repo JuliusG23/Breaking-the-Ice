@@ -1,0 +1,5 @@
+# Breaking the Ice
+
+All the files required to reproduce the research from the thesis, ‘Breaking the Ice: Surpassing the Cold User Barrier in Model-Based Recommender Systems using Active Learning Approaches’, by Julius Geukers, are included in this repository. This research uses implicit user feedback from a luxury webshop. A user-item interaction is positive (coded as 1) if the user buys the item more than it returns. A user-item interaction is negative (coded as 0) if the user buys and returns the item equally. Some interactions are missing (items that the user neither buys nor returns). The data set has over 500,000 distinct users and more than 200,000 distinct items. It also has about 2.5 million interactions, with an average of 4.55 interactions per user. Note: the index (first column) provided in the dataset should be ignored.
+
+In addition to the data set, this repository contains the python file used to implement the matrix factorization recommender and the active learning approach. Moreover, the R file used to analyse the results is also included. The research has been conducted with python version 3.10.11 and R version 4.2.3.
